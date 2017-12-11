@@ -1,6 +1,6 @@
 {
   "name": "magento-node-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Magento node api",
   "main": "index.js",
   "dependencies": {
