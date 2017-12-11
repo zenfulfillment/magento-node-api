@@ -4,6 +4,7 @@
   "description": "Magento node api",
   "main": "index.js",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "xmlrpc": "^1.3.2"
   },
   "devDependencies": {

@@ -1,3 +1,4 @@
+const Promise = require('bluebird');
 const xmlrpc = require('xmlrpc');
 const url = require('url');
 
