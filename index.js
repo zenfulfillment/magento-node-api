@@ -9,7 +9,7 @@ class MagentoAPI {
       port: 80,
       path: '/index.php/api/xmlrpc'
     };
-    const parsedUrl = url.parse(config.host);
+    const parsedUrl = url.parse(config.host || config.hostname);
     const parsedConfig = {
       host: parsedUrl.hostname || config.host,
       port: parsedUrl.port || config.port
